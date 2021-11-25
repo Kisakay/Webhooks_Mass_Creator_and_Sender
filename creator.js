@@ -26,7 +26,7 @@ const rl = readline.createInterface({
         rl.question('How many webhook do you want ? (max recommended is 10/guilds) > '.blue, (webhookCount) => {
             webhookGen = 0
             const channel = client.channels.cache.get(discordChannelsID)   
-      for (let pas = 0; pas < webhookCount; pas++) {
+      for (let pas = 0; ps < webhookCount; ps++) {
             try {
                   function copieCode(length, letter) {
                         var multiplier = '';
