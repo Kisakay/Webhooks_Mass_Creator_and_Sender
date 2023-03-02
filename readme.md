@@ -12,12 +12,11 @@ Multi-webhook creators & Multi-webhook senders.
 ![Picture](https://cdn.discordapp.com/attachments/855422603375149077/913442453481214012/unknown.png)
 ![Picture](https://cdn.discordapp.com/attachments/855422603375149077/913442546259214416/unknown.png)
 
-The sender is made by Ezermoz & coded in python.
+The sender is made by PeacefulTrees & coded in python.
 official repertory :
-https://github.com/Ezermoz/DiscordWebhookSpammer
-https://youtu.be/rwbvtHlZd-U
+https://github.com/PeacefulTrees/DiscordWebhookSpammer
 
-The creator is only on this repetory and is coded by Ezermoz on JavaScript.
+The creator is only on this repetory and is coded by PeacefulTrees on JavaScript.
 Video soon...
 
 
