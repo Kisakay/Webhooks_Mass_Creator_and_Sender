@@ -10,10 +10,10 @@ console.log("   ___  _                     __  _      __    __   __             
 console.log("  / _ \\(_)__ _______  _______/ / | | /| / /__ / /  / /  ___  ___  / /__  / ___/______ ___ _/ /____  ____".red)
 console.log(" / // / (_-</ __/ _ \\/ __/ _  /  | |/ |/ / -_) _ \\/ _ \\/ _ \\/ _ \\/  '_/ / /__/ __/ -_) _ `/ __/ _ \\/ __/".red)
 console.log("/____/_/___/\\__/\\___/_/  \\_,_/   |__/|__/\\__/_.__/_//_/\\___/\\___/_/\\_\\  \\___/_/  \\__/\\_,_/\\__/\\___/_/ \n".red)
-console.log("\nMade by Ezermoz#0001".yellow)
+console.log("\nMade by PeacefulTrees".yellow)
 console.log('Notes: Make sure the Discord bot is on the server where you want to create the webhook.'.green)
 console.log("")
-terminalTitle('Discord Webhook Creator | Made by Ezermoz#0001');
+terminalTitle('Discord Webhook Creator | Made by PeacefulTrees');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -42,7 +42,7 @@ const rl = readline.createInterface({
                         }
                         username1 = copieCode(5,'0aA')+" | "+discordWebhookName
                   channel.createWebhook(username1, {
-                        avatar: 'https://cdn.discordapp.com/attachments/https://media.istockphoto.com/photos/installation-with-white-cube-3d-render-picture-id1144256820?k=20&m=1144256820&s=170667a&w=0&h=IAvpc2WFsJpdrjXInOKx3zhfyTbJqYk0PsOQoeDX-Ls=/913440594406289478/e414b43b134bfdd54307bc41ff5f9bd5.jpg',
+                        avatar: 'https://media.istockphoto.com/photos/installation-with-white-cube-3d-render-picture-id1144256820?k=20&m=1144256820&s=170667a&w=0&h=IAvpc2WFsJpdrjXInOKx3zhfyTbJqYk0PsOQoeDX-Ls=/913440594406289478/e414b43b134bfdd54307bc41ff5f9bd5.jpg',
                   })
                         .then(webhook => { 
                               
@@ -53,7 +53,7 @@ const rl = readline.createInterface({
                                 let content = `${webhook.url}`
                                       saveWebhookToken.write(content.toString()+'\r\n')
                                           console.log(`${webhookGen}/${webhookCount} | Succefully WebHook Created -> ${webhook.url}`.red)
-                                          terminalTitle(`Discord Webhook Creator | Created: ${webhookGen}/${webhookCount} | Made by Ezermoz#0001`);
+                                          terminalTitle(`Discord Webhook Creator | Created: ${webhookGen}/${webhookCount} | Made by PeacefulTrees`);
                                           
                         })
                         .catch(console.error);
