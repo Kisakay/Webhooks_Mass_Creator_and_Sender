@@ -1,8 +1,8 @@
 import requests
 import os
 from os import system
-system("title Discord Webhook Sender / Coded by Ezermoz#0001.")
-print("Made by Ezermoz#0001")
+system("title Discord Webhook Sender / Coded by PeacefulTrees.")
+print("Made by PeacefulTrees")
 from discord_webhook import DiscordWebhook
 tokenstel4Wh = "a"
 tokenstelLogic = "a"
@@ -25,7 +25,7 @@ with open('message.txt') as g:
 if webhook_stel == "txt":
     print("")
     print("[TXT] >", webhookintxt, "Webhook Load !")
-    system(f"title Discord Webhook Sender / {webhookintxt} webhook found in txt ! / Coded by Ezermoz#0001.")
+    system(f"title Discord Webhook Sender / {webhookintxt} webhook found in txt ! / Coded by PeacefulTrees.")
     print("")
     tokenstel4Wh = input("""[WEBHOOK IN TXT] > What's the message?\n (txt) if the message is on .txt > """)
 else:
